@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kegites Club - Supreme Anambara Hemisphere</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', 'sans-serif']
+          },
+          colors: {
+            brand: {
+              50: '#eefcf3',
+              100: '#dcf7e7',
+              200: '#bbf0d0',
+              600: '#188f4d',
+              700: '#13723d',
+              800: '#0e5a30',
+              900: '#0b3a20'
+            }
+          },
+          boxShadow: {
+            soft: '0 12px 30px rgba(11, 58, 32, 0.08)'
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-white text-brand-900 antialiased">
+  <nav class="fixed top-0 z-50 w-full border-b border-brand-100 bg-white/80 backdrop-blur-md">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 md:px-8">
+      <div class="flex items-center gap-2">
+        <div class="h-10 w-10 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold">K</div>
+        <span class="text-xl font-extrabold tracking-tight text-brand-900">KEGITES</span>
+      </div>
+      <div class="hidden gap-8 text-sm font-bold uppercase tracking-wider text-brand-700 md:flex">
+        <a href="#about" class="hover:text-brand-900 transition-colors">About</a>
+        <a href="#message" class="hover:text-brand-900 transition-colors">Message</a>
+        <a href="#ilyases" class="hover:text-brand-900 transition-colors">Ilyases</a>
+        <a href="#contact" class="hover:text-brand-900 transition-colors">Contact</a>
+      </div>
+      <button class="rounded-full bg-brand-600 px-6 py-2 text-sm font-bold text-white transition-all hover:bg-brand-700 hover:shadow-lg">
+        Join Us
+      </button>
+    </div>
+  </nav>
+
+  <div class="min-h-screen pt-20 bg-gradient-to-b from-brand-50 via-white to-white">
+    <main class="mx-auto w-full max-w-6xl px-4 py-8 md:px-8 md:py-12">
+      <!-- Hero Section -->
+      <section class="mb-20 flex flex-col items-center text-center py-12 md:py-20" data-aos="fade-up">
+        <div class="mb-8 inline-flex h-24 w-48 items-center justify-center rounded-2xl border border-brand-100 bg-white px-5 shadow-soft" data-aos="zoom-in" data-aos-delay="200">
+          <span class="text-3xl font-extrabold tracking-tight text-brand-700">LOGO</span>
+        </div>
+        <h1 class="max-w-4xl text-4xl font-extrabold uppercase tracking-tight text-brand-700 md:text-7xl leading-tight">
+          Kegites Club <span class="text-brand-900">Supreme Anambara Hemisphere</span>
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg font-medium text-brand-900/70 md:text-xl">
+          Celebrating culture, unity, and brotherhood. We are the heart of the Supreme Anambara Hemisphere, building a legacy of excellence and friendship.
+        </p>
+        <div class="mt-10 flex flex-wrap justify-center gap-4">
+          <a href="#about" class="rounded-full bg-brand-600 px-8 py-4 text-lg font-bold text-white transition-all hover:bg-brand-700 hover:shadow-xl hover:-translate-y-1">
+            Explore Our World
+          </a>
+          <a href="#ilyases" class="rounded-full border-2 border-brand-600 px-8 py-4 text-lg font-bold text-brand-700 transition-all hover:bg-brand-50">
+            View Ilyases
+          </a>
+        </div>
+      </section>
+
+      <!-- Message & Chairman Section -->
+      <section id="message" class="mb-16 grid gap-8 lg:grid-cols-[1fr_1.6fr]">
+        <article class="rounded-3xl border border-brand-100 bg-white p-5 shadow-soft transition-transform hover:scale-[1.02]" data-aos="fade-right">
+          <h2 class="mb-6 text-sm font-bold uppercase tracking-[0.2em] text-brand-700">Current Chairman</h2>
+          <div class="flex h-[400px] items-center justify-center rounded-2xl border-2 border-dashed border-brand-200 bg-brand-50/50">
+            <div class="text-center p-6">
+              <div class="mx-auto mb-4 h-24 w-24 rounded-full bg-brand-200 flex items-center justify-center">
+                <svg class="h-12 w-12 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+              </div>
+              <p class="text-2xl font-bold uppercase tracking-wide text-brand-700">Image Placeholder</p>
+              <p class="mt-2 text-sm font-medium text-brand-900/60 italic">"The leadership that guides us"</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="flex flex-col justify-center rounded-3xl border border-brand-100 bg-white p-8 shadow-soft md:p-12" data-aos="fade-left">
+          <div class="mb-6 inline-block rounded-full bg-brand-50 px-4 py-1 text-xs font-bold uppercase tracking-widest text-brand-700">Vision</div>
+          <h2 class="text-3xl font-extrabold uppercase tracking-tight text-brand-700 md:text-4xl">Message From Chairman</h2>
+          <div class="mt-6 space-y-6 text-lg leading-relaxed text-brand-900/80">
+            <p>
+              Welcome to the Kegites Club, Supreme Anambara Hemisphere. We are a strong community built on unity,
+              culture, friendship, and growth. This platform brings us together to celebrate our values and build
+              lasting impact across campus and beyond.
+            </p>
+            <p>
+              Let us continue to stand with honor, support one another, and carry the spirit of Kegites with pride.
+              We move together with one voice, one identity, and one purpose.
+            </p>
+          </div>
+          <div class="mt-8 border-t border-brand-50 pt-8">
+            <p class="font-bold text-brand-900 uppercase">Supreme Anambara Hemisphere</p>
+            <p class="text-sm text-brand-600">The Chairman's Office</p>
+          </div>
+        </article>
+      </section>
+
+      <!-- About & Ilyases Section -->
+      <section id="about" class="mb-20 grid gap-8 lg:grid-cols-[1.6fr_1fr]">
+        <article class="rounded-3xl border border-brand-100 bg-white p-8 shadow-soft md:p-12" data-aos="fade-up">
+          <div class="mb-6 inline-block rounded-full bg-brand-50 px-4 py-1 text-xs font-bold uppercase tracking-widest text-brand-700">History</div>
+          <h2 class="text-3xl font-extrabold uppercase tracking-tight text-brand-700 md:text-4xl">About Us</h2>
+          <p class="mt-6 text-xl leading-relaxed text-brand-900/80">
+            Kegites Club is a socio-cultural movement focused on brotherhood, expression, and service. In the
+            Supreme Anambara Hemisphere, we promote leadership, meaningful relationships, and positive community
+            engagement while preserving the unique identity that defines us.
+          </p>
+          <div class="mt-10 grid grid-cols-2 gap-6">
+            <div class="rounded-2xl bg-brand-50 p-6">
+              <p class="text-3xl font-black text-brand-700">100%</p>
+              <p class="text-sm font-bold uppercase text-brand-900/60">Unity</p>
+            </div>
+            <div class="rounded-2xl bg-brand-50 p-6">
+              <p class="text-3xl font-black text-brand-700">Active</p>
+              <p class="text-sm font-bold uppercase text-brand-900/60">Chapters</p>
+            </div>
+          </div>
+        </article>
+
+        <article id="ilyases" class="rounded-3xl border border-brand-100 bg-brand-900 p-8 text-white shadow-soft" data-aos="fade-left">
+          <h2 class="text-2xl font-extrabold uppercase tracking-tight text-brand-100">Our Ilyases</h2>
+          <p class="mt-2 text-brand-200/70">The strength of our hemisphere lies in our chapters.</p>
+          <ul class="mt-8 space-y-4">
+            <li class="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+              <div class="h-2 w-2 rounded-full bg-brand-600"></div>
+              <span class="text-lg font-bold">Ilya Ashina</span>
+            </li>
+            <li class="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+              <div class="h-2 w-2 rounded-full bg-brand-600"></div>
+              <span class="text-lg font-bold">Ilya Igbaladun</span>
+            </li>
+            <li class="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+              <div class="h-2 w-2 rounded-full bg-brand-600"></div>
+              <span class="text-lg font-bold">Ilya Sector</span>
+            </li>
+            <li class="flex items-center gap-3 rounded-xl border border-white/10 bg-white/5 p-4 transition-colors hover:bg-white/10">
+              <div class="h-2 w-2 rounded-full bg-brand-600"></div>
+              <span class="text-lg font-bold">Ilya Eagle</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    
+    <footer id="contact" class="bg-brand-900 pt-20 pb-10 text-white">
+      <div class="mx-auto max-w-6xl px-4 md:px-8">
+        <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+          <div class="space-y-6">
+            <div class="flex items-center gap-2">
+              <div class="h-10 w-10 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold">K</div>
+              <span class="text-xl font-extrabold tracking-tight">KEGITES</span>
+            </div>
+            <p class="text-brand-100/60 leading-relaxed">
+              Preserving the socio-cultural heritage of the Kegites Club in the Supreme Anambara Hemisphere. Unity, Liberty, and Service.
+            </p>
+          </div>
+          
+          <div>
+            <h4 class="mb-6 text-sm font-bold uppercase tracking-widest text-brand-600">Quick Links</h4>
+            <ul class="space-y-4 text-brand-100/80">
+              <li><a href="#about" class="hover:text-white transition-colors">About Us</a></li>
+              <li><a href="#message" class="hover:text-white transition-colors">Chairman's Message</a></li>
+              <li><a href="#ilyases" class="hover:text-white transition-colors">Our Ilyases</a></li>
+              <li><a href="#" class="hover:text-white transition-colors">Membership</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="mb-6 text-sm font-bold uppercase tracking-widest text-brand-600">Contact</h4>
+            <ul class="space-y-4 text-brand-100/80">
+              <li class="flex items-start gap-3">
+                <svg class="h-5 w-5 text-brand-600 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                <span>Supreme Anambara Hemisphere Headquarters</span>
+              </li>
+              <li class="flex items-center gap-3">
+                <svg class="h-5 w-5 text-brand-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                <span>info@kegites-anambara.org</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h4 class="mb-6 text-sm font-bold uppercase tracking-widest text-brand-600">Follow Us</h4>
+            <div class="flex gap-4">
+              <a href="#" class="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center transition-colors hover:bg-brand-600">
+                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+              </a>
+              <a href="#" class="h-10 w-10 rounded-full bg-white/5 flex items-center justify-center transition-colors hover:bg-brand-600">
+                <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.84 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-20 border-t border-white/5 pt-10 text-center text-sm text-brand-100/40">
+          <p>&copy; 2026 Kegites Club Supreme Anambara Hemisphere. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+      offset: 100,
+    });
+  </script>
+</body>
+</html>
